@@ -64,9 +64,9 @@ export default function Cart() {
             <Link to="/checkout" className="btn w-full text-center bg-primary-600 hover:bg-primary-700 text-white py-2 mt-4 rounded">
               Proceed to Checkout
             </Link>
-            <button className="btn w-full border border-gray-300/50 bg-white hover:bg-gray-300 py-2 mt-2 rounded">
+            <Link to="/" className="btn w-full border text-center border-gray-300/50 bg-white hover:bg-gray-300 py-2 mt-2 rounded">
               Continue Shopping
-            </button>
+            </Link>
             <div className="mt-4 space-y-2">
               <div className="bg-gray-100 rounded p-4">
                 <div className="flex items-center gap-3">

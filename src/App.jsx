@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router"
+import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router"
 import Layout from "./components/Layout/Layout"
 import Home from "./pages/Home/Home"
 import Login from "./pages/Login/Login"
@@ -30,7 +30,8 @@ function App() {
 
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  const router = createBrowserRouter([
+  
+  const router = createHashRouter([
     {
       path: '/',
       element: <Layout />,
